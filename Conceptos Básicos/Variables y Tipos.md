@@ -20,7 +20,7 @@ Al nombrar variables deben tener las siguientes consideraciones:
 En términos generales es recomendable utilizar nombres de variables **claros, no ambiguos y descriptivos**. Y concretamente, se podría considerar un buen esquema el uso de palabras en minúsculas separadas por guiones bajos.
 
 ## Tipos de datos en R
-##### `numeric`
+#### `numeric`
 Para valores numéricos, tanto enteros como decimales. Es posible utilizar notación científica.
 ```r
 temperatura_ambiente <- -3.5
@@ -30,7 +30,7 @@ cantidad_de_estudiantes <- 7
 velocidad_de_la_luz_kms <- 3e6
 ```
 
-##### `character` 
+#### `character` 
 Cadenas de texto.
 ```r
 mensaje <- "¡Hola a todos!"
@@ -38,14 +38,15 @@ nombre <- "Jacqueline"
 cadena_de_adn <- "ATGTTGGAAATGTGGTAG"
 ```
 
-##### `logical`
+#### `logical`
 Para almacenar valores lógicos, verdadero (`TRUE` o `T`) o falso (`FALSE` o `F`).
 ```r
 compra_recibida <- FALSE
 agua_ha_hervido <- T
 ```
 
-##### `factor`
+#### `factor`
+***Nota**: esto tendrá más sentido después de haber leído la sección [[Vectores y Listas]].*
 Los factores son tipos especialmente útiles cuando se poseen categorías definida (por ejemplo sexo). El tipo factor permite definir las opciones (o niveles) para un valor determinado, los que son asociados a un valor entero. Esto entrega ciertas ventajas como la de controlar el orden de los elementos de forma arbitraria.
 Los factores pueden ser creados directamente a partir de vectores (generalmente de tipo `character`).
 ```r

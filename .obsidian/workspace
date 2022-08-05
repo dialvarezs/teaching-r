@@ -9,11 +9,25 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Conceptos Básicos/Vectores y Listas.md",
+            "file": "Conceptos Básicos/Variables y Tipos.md",
             "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "5094deddb85a8d65"
+      },
+      {
+        "id": "80dcdd7c56496b50",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Conceptos Básicos/Variables y Tipos.md",
+            "mode": "preview",
+            "source": false
+          }
+        },
+        "group": "5094deddb85a8d65"
       }
     ],
     "direction": "vertical"
@@ -65,7 +79,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -85,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceptos Básicos/Vectores y Listas.md",
+                "file": "Conceptos Básicos/Variables y Tipos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptos Básicos/Vectores y Listas.md",
+                "file": "Conceptos Básicos/Variables y Tipos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,28 +140,35 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conceptos Básicos/Vectores y Listas.md"
+                "file": "Conceptos Básicos/Variables y Tipos.md"
               }
             }
+          },
+          {
+            "id": "13021ac2199e0af5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "3c97d62767731d15",
+  "active": "534c155caf93e21b",
   "lastOpenFiles": [
-    "R for Dummies.md",
-    "Conceptos Básicos/Variables y Tipos.md",
     "Conceptos Básicos/Vectores y Listas.md",
+    "Conceptos Básicos/Variables y Tipos.md",
     "Conceptos Básicos/Números Aleatorios.md",
     "Conceptos Básicos/Lenguajes de Programación y Editores.md",
     "Conceptos Básicos/Instalación y Uso Básico de R y RStudio.md",
     "Conceptos Básicos/Funciones.md",
     "Conceptos Básicos/Control de Flujo.md",
+    "R for Dummies.md",
     "RStudio.md",
     "2022-08-04.md"
   ]
