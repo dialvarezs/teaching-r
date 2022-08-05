@@ -46,7 +46,9 @@ agua_ha_hervido <- T
 ```
 
 #### `factor`
-***Nota**: esto tendrá más sentido después de haber leído la sección [[Vectores y Listas]].*
+> [!NOTA]
+Entender cómo utilizar factores tendrá más sentido después de haber leído la sección [[Vectores y Listas]].
+
 Los factores son tipos especialmente útiles cuando se poseen categorías definida (por ejemplo sexo). El tipo factor permite definir las opciones (o niveles) para un valor determinado, los que son asociados a un valor entero. Esto entrega ciertas ventajas como la de controlar el orden de los elementos de forma arbitraria.
 Los factores pueden ser creados directamente a partir de vectores (generalmente de tipo `character`).
 ```r
