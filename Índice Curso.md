@@ -1,4 +1,6 @@
-# Curso de R
+# Curso Básico de R
+*Diego Alvarez Saravia*
+(WIP)
 
 ## Conceptos Básicos
 

@@ -31,7 +31,7 @@ velocidad_de_la_luz_kms <- 3e6
 ```
 
 #### `character` 
-Cadenas de texto.
+Cadenas de texto, comúnmente llamadas *strings*.
 ```r
 mensaje <- "¡Hola a todos!"
 nombre <- "Jacqueline"
