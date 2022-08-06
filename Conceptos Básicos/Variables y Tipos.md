@@ -13,11 +13,11 @@ naranjas_restantes <- 3
 ```
 
 Al nombrar variables deben tener las siguientes consideraciones:
-- Pueden ser una combinación de letras, dígitos, puntos (`.`), y guiones bajos (`_`). No pueden comenzar con dígitos o guiones bájos, y en caso de empezar con un punto, no puede ser seguido por un dígito.
+- Pueden ser una combinación de letras, dígitos, puntos (`.`), y guiones bajos (`_`). No pueden comenzar con dígitos o guiones bajos, y en caso de empezar con un punto, no puede ser seguido por un dígito.
 - Los nombres de variables son sensibles al uso de mayúsculas y minúsculas (`edad`, `Edad` y `EDAD` son variables diferentes).
-- No se pueden utilizar las palabras reservadas como nombres de variables (`if`, `while`, `FALSE`, etc).
+- No se pueden utilizar las palabras reservadas como nombres de variables (`if`, `while`, `FALSE`, etc.).
 
-En términos generales es recomendable utilizar nombres de variables **claros, no ambiguos y descriptivos**. Y concretamente, se podría considerar un buen esquema el uso de palabras en minúsculas separadas por guiones bajos.
+En términos generales, es recomendable utilizar nombres de variables **claros, no ambiguos y descriptivos**. Y concretamente, se podría considerar un buen esquema el uso de palabras en minúsculas separadas por guiones bajos.
 
 ## Tipos de datos en R
 #### `numeric`
@@ -49,7 +49,7 @@ agua_ha_hervido <- T
 > [!NOTA]
 Entender cómo utilizar factores tendrá más sentido después de haber leído la sección [[Vectores y Listas]].
 
-Los factores son tipos especialmente útiles cuando se poseen categorías definida (por ejemplo sexo). El tipo factor permite definir las opciones (o niveles) para un valor determinado, los que son asociados a un valor entero. Esto entrega ciertas ventajas como la de controlar el orden de los elementos de forma arbitraria.
+Los factores son tipos especialmente útiles cuando se poseen categorías definidas (por ejemplo sexo). El tipo factor permite definir las opciones (o niveles) para un valor determinado, los que son asociados a un valor entero. Esto entrega ciertas ventajas como la de controlar el orden de los elementos de forma arbitraria.
 Los factores pueden ser creados directamente a partir de vectores (generalmente de tipo `character`).
 ```r
 colores <- c("azul", "amarillo", "azul", "azul", "rojo", "rojo")
@@ -60,7 +60,7 @@ print(colores)
 ```
 
 ### Transformación de tipos en variables
-Existen funciones para cambiar de tipo una variable, las cuales comienzan con el prefijo `as.`. Naturalmente, para que este proceso sea exitoso debe tener sentido (no podemos tranformar a valor numérico un texto que no pueda ser interpretado como un número).
+Existen funciones para cambiar de tipo una variable, las cuales comienzan con el prefijo `as.`. Naturalmente, para que este proceso sea exitoso debe tener sentido (no podemos transformar a valor numérico un texto que no pueda ser interpretado como un número).
 ```r
 # de character a numeric
 texto_numerico <- "1111234185809"

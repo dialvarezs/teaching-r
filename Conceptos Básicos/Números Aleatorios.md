@@ -1,4 +1,4 @@
-La generación de números aleatorios es una tarea común cuando se desea crear valores para probar un fragmento de código. Es posible controlar el tipo de este número aleatorio y incluso el rango y la distribución en la cual se genera.
+La generación de números aleatorios es una tarea común cuando se desea crear valores para probar un fragmento de código. Es posible controlar el tipo de este número aleatorio e incluso el rango y la distribución en la cual se genera.
 
 
 ### Números aleatorios en distribución uniforme
@@ -15,7 +15,7 @@ runif(5)
 runif(100, min = 0, max = 10)
 ```
 
-Si queremos generar números enteros (sin decimales), es posible utilizar la función `sample()`, pasando un rango como primer argumento y la cantidad de valores deseados como segundo argumento. Además es posible controlar si se desean elementos únicos o si es posible repetirlos con el parámetro `replace` (el cual por defecto es `FALSE`). 
+Si queremos generar números enteros (sin decimales), es posible utilizar la función `sample()`, pasando un rango como primer argumento y la cantidad de valores deseados como segundo argumento. Además, es posible controlar si se desean elementos únicos o si es posible repetirlos con el parámetro `replace` (el cual por defecto es `FALSE`). 
 ```r
 # genera 10 números aleatorios entre 1 y 1000, con la posibilidad de que estén repetidos
 sample(1:1000, 10, replace = TRUE)
