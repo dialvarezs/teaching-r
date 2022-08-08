@@ -25,14 +25,14 @@ Una de las características de R es que puede trabajar con vectores de forma nat
 v1 <- c(1 , 3, 5, 7, 11, 13, 17)
 v2 <- c(2, 4, 6, 8, 10, 12, 14)
 
-v1 + 5   ## [1] 6 8 10 12 16 18 22
-v1 * 2   ## [1] 2 6 10 14 22 26 34
-v1 + v2  ## [1] 3 7 11 15 21 25 31
-v2 / v1  ## [1] 2.0 1.3 1.2 1.1 0.9 0.9 0.8
+v1 + 5   ## 6 8 10 12 16 18 22
+v1 * 2   ## 2 6 10 14 22 26 34
+v1 + v2  ## 3 7 11 15 21 25 31
+v2 / v1  ## 2.0 1.3 1.2 1.1 0.9 0.9 0.8
 ```
 También se pueden evaluar operaciones lógicas en vectores, donde la operación será aplicada a cada elemento y será entregado un valor lógico dependiendo del resultado para cada elemento.
 ```r
-v1 > 7  ## [1] FALSE FALSE FALSE FALSE TRUE TRUE TRUE
+v1 > 7  ## FALSE FALSE FALSE FALSE TRUE TRUE TRUE
 ```
 
 ### Obtención de elementos desde vectores
@@ -45,20 +45,35 @@ v[length(v)]  ## 55 (último elemento)
 ```
 Dentro de los corchetes es posible especificar múltiples posiciones mediante un vector, lo que creará un nuevo vector extrayendo los elementos indicados por el vector de posiciones.
 ```r
-v[c(1, 2, 5, 6)]  ## [1]  3 10 33 41
+v[c(1, 2, 5, 6)]  ##  3 10 33 41
 ```
-En muchos casos nos interesará sub seleccionar múltiples elementos en posiciones consecutivas, y si bien es posible escribir el vector con todas las posiciones, se puede escribir de una forma mucho más conveniente mediante el uso de rangos. Un rango consiste en dos números separados por dos puntos (por ejemplo `1:10`), que se comporta en la mayoría de los casos como un vector con todos los valores consecutivos entre ambos números, incluyéndolos.
+En muchos casos nos interesará sub seleccionar múltiples elementos en posiciones consecutivas, y si bien es posible escribir el vector con todas las posiciones, se puede escribir de una forma mucho más conveniente mediante el uso de rangos. Un rango consiste en dos números separados por dos puntos (por ejemplo `1:10`), que se traduce como un vector con todos los valores consecutivos entre ambos números, ambos inclusive.
 ```r
-v[1:5]  ## [1]  3 10 21 25 33
+v[1:5]  ##  3 10 21 25 33
 ```
 Por último, es posible sub seleccionar elementos de un vector mediante un vector lógico del mismo tamaño, donde los elementos serán seleccionados si hay un `TRUE`. Y dado que al aplicar una operación lógica sobre un vector se obtiene un vector lógico, se puede utilizar directamente para filtrar los elementos de un vector utilizando una expresión lógica.
 ```r
 # mayores a 25
-v[v > 25]  ## [1] 33 41 55
+v[v > 25]  ## 33 41 55
 # pares
-v[v %% 2 == 0]  ## [1] 10
+v[v %% 2 == 0]  ## 10
 ```
 
 ## Matrices
+Las matrices son esencialmente vectores en dos dimensiones útiles para almacenar ciertos tipos de información, y su uso es requerido para ciertas operaciones matemáticas. Se puede crear una matriz a partir de un vector o rango mediante la función `matrix()`, en la que podemos indicar el número de filas (`nrow`) y columnas (`ncol`) que queremos que tenga nuestra matriz. Se puede indicar solo uno de los dos parámetros y el otro será calculado automáticamente en base a la cantidad de elementos. Otro punto relevante a considerar es que por defecto la matriz se llena por columnas, pero eso puede ser cambiado mediante el parámetro `byrow`.
+```r
+# al no especificar cantidad de filas ni de columnas
+# se crea una matriz de una única columna
+mat <- matrix(1:20)
+
+# matriz de 5 columnas y 4 filas
+mat <- matrix(1:20, ncol=5, nrow=4)
+```
+A la hora de extraer elementos de una matriz, hay que tener en consideración que existen dos dimensiones, que se pueden indicar dentro del mismo par de corchetes (`[c, r]`, `c`: columna, `r`: fila). Se puede omitir uno de los dos valores para extraer la columna o fila completa.
+```r
+mat[3, 4]  ## 15 (columna 3, fila 4)
+mat[2,]    ##  2  6 10 14 18 (fila 2 completa)
+mat[,4]    ## 13 14 15 16 (columna 4 completa)
+```
 
 ## Listas
