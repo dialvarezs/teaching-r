@@ -13,10 +13,12 @@ animales <- c("gato", "perro", "vaca", "serpiente", "gallina")
 Igualmente, podemos utilizar la función `c()` para añadir elementos a un vector o combinar vectores.
 ```r
 nuevos_animales <- c(animales, "cangrejo", "rana")
+# "gato"      "perro"     "vaca"      "serpiente" "gallina"   "cangrejo"  "rana"
 
 nombres_grupo_1 <- c("Luis", "Nataly", "Andrea")
 nombres_grupo_2 <- c("Karen", "Rodrigo", "Carlos")
 nombres_curso <- c(nombres_grupo_1, nombres_grupo_2)
+# [1] "Luis"    "Nataly"  "Andrea"  "Karen"   "Rodrigo" "Carlos" 
 ```
 
 ### Operaciones sobre vectores
@@ -68,6 +70,10 @@ mat <- matrix(1:20)
 
 # matriz de 5 columnas y 4 filas
 mat <- matrix(1:20, ncol=5, nrow=4)
+#    1    5    9   13   17
+#    2    6   10   14   18
+#    3    7   11   15   19
+#    4    8   12   16   20
 ```
 A la hora de extraer elementos de una matriz, hay que tener en consideración que existen dos dimensiones, que se pueden indicar dentro del mismo par de corchetes (`[c, r]`, `c`: columna, `r`: fila). Se puede omitir uno de los dos valores para extraer la columna o fila completa.
 ```r
@@ -100,7 +106,7 @@ Otra característica conveniente en las listas es que se les puede asignar un no
 persona <- list(nombre="Juan", apellido="Pérez", edad=30, peso=76.8, soltero=TRUE)
 
 # obtener la edad por nombre
-persona$edad
+persona$edad   ## 30
 # sigue funcionando acceder por posición
-persona[[3]]
+persona[[3]]   ## 30
 ```
