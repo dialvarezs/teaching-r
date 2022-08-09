@@ -77,3 +77,30 @@ mat[,4]    ## 13 14 15 16 (columna 4 completa)
 ```
 
 ## Listas
+Las listas son colecciones que contienen múltiples elementos en una sola dimensión, como los [[#Vectores|vectores]], con la principal diferencia pueden contener elementos de diferentes tipos en la misma colección, incluso vectores o hasta otras listas. Para crear una lista se sigue un método similar al de un vector, pero utilizando la función `list()`.
+```r
+lista_1 <- list("el1", 2, 3)
+lista_2 <- list("¡hola!", 123, 1:10, lista_1, FALSE)
+```
+Para acceder a los elementos de una lista, se debe utilizar doble corchete (`[[]]`), es importante tener en cuenta esto, ya que al usar un par de corchetes no habrá un error, sino que se creará una lista con el elemento seleccionado como único elemento.
+```r
+lista_1 <- list("uno", "dos", "tres")
+
+lista_1[1]  ## [[1]] [1] "dos" (retorna una lista)
+lista_1[[1]]  ## [1] "dos" (retorna el elemento)
+```
+Al igual que con los vectores, se pueden sub seleccionar los elementos para crear una nueva lista, y en este caso debe utilizarse solo un par de corchetes.
+```r
+# crea lista_2, usando el primer y el tercer elemento de lista_1
+lista_2 <- lista_1[c(1, 3)]
+```
+Otra característica conveniente en las listas es que se les puede asignar un nombre a sus elementos, el cual puede utilizarse posteriormente para obtener dicho elemento usando el símbolo `$`.
+```r
+# se crea la lista con los atributos por nombres
+persona <- list(nombre="Juan", apellido="Pérez", edad=30, peso=76.8, soltero=TRUE)
+
+# obtener la edad por nombre
+persona$edad
+# sigue funcionando acceder por posición
+persona[[3]]
+```
