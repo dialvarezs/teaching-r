@@ -6,7 +6,7 @@
 
 ### Entorno de Desarrollo
 [[Lenguajes de Programación y Editores]]
-[[Instalación y Uso Básico de R y RStudio]]
+[[Instalación de R y RStudio]]
 
 ### Lenguaje R
 [[Aspectos Básicos de R]]
