@@ -9,6 +9,7 @@
 [[Instalación y Uso Básico de R y RStudio]]
 
 ### Lenguaje R
+[[Aspectos Básicos de R]]
 [[Variables y Tipos]]
 [[Control de Flujo]]
 [[Vectores y Listas]]
