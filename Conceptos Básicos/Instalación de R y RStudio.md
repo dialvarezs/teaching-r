@@ -3,11 +3,11 @@ RStudio es el entorno de desarrollo más completo que existe actualmente para R,
 ## Instalación de R / RStudio
 
 ### R
-En primer lugar es necesario instalar R (el lenguaje de programación), ya que el editor no lo trae integrado. La página de descarga de R es https://cloud.r-project.org/, donde se pueden encontrar instaladores tanto para Windows como para macOS. En cuanto a Linux, es prácticamente seguro que se encuentra empaquetado en los repositorios de la distribución.
+En primer lugar es necesario instalar R (el lenguaje de programación), ya que el editor no lo trae integrado. La página de descarga de R es [https://cloud.r-project.org/](https://cloud.r-project.org/), donde se pueden encontrar instaladores tanto para Windows como para macOS. En cuanto a Linux, es prácticamente seguro que se encuentra empaquetado en los repositorios de la distribución.
 Una vez se haya terminado de instalar R, se puede pasar a instalar RStudio.
 
 ### RStudio
-Se puede descargar RStudio en https://www.rstudio.com/products/rstudio/download/#download, donde se encuentran los instaladores para todos los sistemas operativos soportados.
+Se puede descargar RStudio en [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download), donde se encuentran los instaladores para todos los sistemas operativos soportados.
 
 ## Interfaz de RStudio
 La interfaz de RStudio está compuesta por 4 paneles, que se pueden observar en la imagen.
