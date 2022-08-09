@@ -1,7 +1,7 @@
 La generación de números aleatorios es una tarea común cuando se desea crear valores para probar un fragmento de código. Es posible controlar el tipo de este número aleatorio e incluso el rango y la distribución en la cual se genera.
 
 
-### Números aleatorios en distribución uniforme
+## Números aleatorios en distribución uniforme
 La forma más sencilla es utilizar la función `runif()`, que recibe 3 parámetros:
 - cantidad de números a generar
 - `min`: valor mínimo (por defecto 0)
@@ -33,7 +33,7 @@ sample(c(1, 6, 7, 13), 10, replace = TRUE)
 sample(c("Verde", "Rojo", "Amarillo"), 15, replace = TRUE)
 ```
 
-### Números aleatorios en distribución normal
+## Números aleatorios en distribución normal
 Para generar números aleatorios en una distribución normal, se utiliza la función `rnorm()`, con los siguientes parámetros:
 - cantidad de números a generar
 - `mean`: promedio de la distribución (por defecto 0)
