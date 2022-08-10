@@ -3,8 +3,8 @@
 (WIP)
 
 ## 1. Entorno de Desarrollo
-[[1.1. Lenguajes de Programación y Editores]]
-[[1.2. Instalación de R y RStudio]]
+[[Lenguajes de Programación y Editores]]
+[[Instalación de R y RStudio]]
 
 ## 2. Conceptos Básicos de R
 [[2.1. Aspectos Básicos de R]]
