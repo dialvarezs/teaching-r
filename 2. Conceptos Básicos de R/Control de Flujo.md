@@ -3,7 +3,7 @@ Las estructuras de control nos permiten añadir flexibilidad a las tareas que se
 ## Condicionales
 
 ### `if-else`
-Se evalúa una pregunta **lógica** (condición), y si su resultado es evaluado como verdadero, se ejecuta la acción especificada en el bloque. Adicionalmente, puede especificarse una acción alternativa mediante la instrucción `else`, que se ejecutará si es que la condición indicada en el `if` es evaluada como falsa.
+Se evalúa una pregunta [[Aspectos Básicos de R#Operadores lógicos|lógica]] (condición), y si su resultado es evaluado como verdadero, se ejecuta la acción especificada en el bloque. Adicionalmente, puede especificarse una acción alternativa mediante la instrucción `else`, que se ejecutará si es que la condición indicada en el `if` es evaluada como falsa.
 ```r
 if (condicion) {
 	# este bloque se ejecuta si "condición" es evaluada como TRUE
@@ -36,7 +36,7 @@ if (numero > 0) {
 Los ciclos o bucles sirven para abordar tareas que son repetitivas, donde la cantidad de veces que se realizará una acción está determinada por alguna variable propia de la operación.
 
 ### `while`
-Un ciclo `while` tiene como parte de su definición una condición **lógica**, y mientras esta se evalúe como verdadera, el bloque de código asociado al `while` seguirá siendo ejecutado. Dentro del bloque de código debe realizarse alguna operación para afectar la(s) variable(s) que involucran la condición, dado que se necesita que el valor de la condición cambie a `FALSE` para que se pueda terminar el ciclo.
+Un ciclo `while` tiene como parte de su definición una condición [[Aspectos Básicos de R#Operadores lógicos|lógica]], y mientras esta se evalúe como verdadera, el bloque de código asociado al `while` seguirá siendo ejecutado. Dentro del bloque de código debe realizarse alguna operación para afectar la(s) variable(s) que involucran la condición, dado que se necesita que el valor de la condición cambie a `FALSE` para que se pueda terminar el ciclo.
 
 ```r
 while (condicion) {
