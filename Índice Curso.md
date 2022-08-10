@@ -1,5 +1,5 @@
 # Curso Básico de R
-*Diego Alvarez Saravia*
+*Diego Alvarez Saravia / Jacqueline Aldridge Águila*
 (WIP)
 
 ## Conceptos Básicos

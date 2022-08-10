@@ -2,22 +2,22 @@ Las estructuras de control nos permiten controlar la manera en que se ejecuta nu
 
 - **if / else (si / de lo contrario):**  Se evalúa una pregunta (condición), y en base a si la condición se cumple se ejecuta una operación u otra. Puede anidarse con un else, para indicar que acción debe realizar el programa en caso de que no se cumpla la condición.
 ```r
-if (condicion){
-  instructiones
-} else{
-  instrucciones
+if (condicion) {
+	instructiones
+} else {
+	instrucciones
 }
 ```
 
 Podemos tener múltiples condicionales anidadas o podemos solamente tener un if, sin añadir el else.
 ```r
-if(numero > 10){
-   print("El número es mayor a 10")
+if (numero > 10) {
+	print("El número es mayor a 10")
 }
 
-if (numero %% 2 == 0){
+if (numero %% 2 == 0) {
 	print("El número es par")
-} else{
+} else {
 	print("El número es impar")
 }
 ```
@@ -26,13 +26,13 @@ if (numero %% 2 == 0){
 - **while:** Tiene como objetivo ejecutar algún código hasta que se cumpla una condición, es decir, mientras la condición sea TRUE, se ejecutará el segmento de código perteneciente al ciclo while.
 
 ```r
-while (condicion){
-  instructiones
+while (condicion) {
+	instructiones
 }
 
 numero <- -3
-while(numero < 10){
-   numero <- numero +1
+while (numero < 10) {
+	numero <- numero + 1
 }
 
 ```
@@ -41,15 +41,15 @@ while(numero < 10){
 - **for:** Estos bucles son iteraciones repetitivas, donde en cada iteración se ejecuta la misma porción de código. Esta iteración puede ser basada en una lista o un vector, o cualquier elemento iterable, donde por cada elemento de la colección se ejecuta el ciclo.
 
 ```r
-for (i in iterable){
+for (i in iterable) {
   instructiones
 }
 
 ## Generamos una colección de los primeros 10 numeros primos
-numeros_primos <-c(1,3,5,7,11,13,17,19,23,29) 
+numeros_primos <- c(1, 3, 5, 7, 11, 13, 17, 19, 23, 29) 
 
 ## Iteramos esta colección. El ciclo for se repetira por cada elemento del vector
-for(numero_primo in numeros_primos){
+for(numero_primo in numeros_primos) {
     print(numero_primo)
 }
 
