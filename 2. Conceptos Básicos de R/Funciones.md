@@ -44,7 +44,6 @@ perimetro_circunferencia(5)  ## El perimetro es 31.4
 ```
 
 ## Funciones comunes
-
 R proporciona un amplio conjunto de funciones predeterminadas en su librería base, lo que permite realizar operaciones comunes sin tener que implementar nuevas funciones para ello. El relevante recordar que R está diseñado desde su base para trabajar con vectores, por lo que la mayoría de las funciones también funcionan con vectores.
 Algunas funciones de las funciones que incluye R son:
 - `mean()` calcula el promedio de un vector.

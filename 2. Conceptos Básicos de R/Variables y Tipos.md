@@ -11,6 +11,17 @@ naranjas_restantes <- 4
 # alguien se comió una
 naranjas_restantes <- 3
 ```
+El valor a asignar puede ser el resultado de una operación o una [[Funciones|función]], y esto es relevante ya que si no asignamos el resultado de una operación a una variable, no se guardará su valor en ningún lugar y sólo será mostrado a través de la consola.
+```r
+a <- 10
+v <- c(1, 4, 6, 7, 8, 9)
+
+# guarda en una variable el resultado de una operación matemática
+resultado_1 <- (3 * a) / 25
+
+# guarda en una variable el resultado de una función
+resultado_2 <- sum(abs(v))
+```
 
 Al nombrar variables deben tener las siguientes consideraciones:
 - Pueden ser una combinación de letras, dígitos, puntos (`.`), y guiones bajos (`_`). No pueden comenzar con dígitos o guiones bajos, y en caso de empezar con un punto, no puede ser seguido por un dígito.

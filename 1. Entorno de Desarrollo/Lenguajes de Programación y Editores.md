@@ -4,7 +4,7 @@ Un lenguaje de programación normalmente es solamente una especificación que co
 
 El código de lenguaje de programación es escrito en un archivo de “texto plano”, para lo cual puede usarse cualquier editor de texto simple (Notepad por ejemplo, pero no Microsoft Word). Existen editores sencillos, pero con soporte para algunas funciones de edición de código (resaltado de sintaxis principalmente y autocompletado en algunos casos), y también existen editores con una gran cantidad de características orientadas al desarrollo (llamados IDE, generalmente son especializados en un lenguaje en particular).
 
-[[Instalación de R y RStudio|RStudio]] es un IDE especialmente diseñado para trabajar con R, y se le considera el estándar para uso de este lenguaje por facilidad de uso y su gran cantidad de características.
+Existen múltiples editores que soportan R como lenguaje, siendo [[Instalación de R y RStudio|RStudio]] uno de los más utilizados debido a su gran cantidad de características y facilidad de uso.
 
 ---
 ▶️ [[Instalación de R y RStudio]]
