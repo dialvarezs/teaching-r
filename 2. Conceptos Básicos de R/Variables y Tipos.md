@@ -73,3 +73,5 @@ as.logical(valores_binarios)
 ---
 Anterior: [[Aspectos Básicos de R]]
 Siguiente: [[Vectores y Listas]]
+
+---

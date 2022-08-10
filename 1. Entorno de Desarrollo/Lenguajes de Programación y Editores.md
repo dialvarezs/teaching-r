@@ -7,4 +7,6 @@ El código de lenguaje de programación es escrito en un archivo de “texto pla
 [[Instalación de R y RStudio|RStudio]] es un IDE especialmente diseñado para trabajar con R, y se le considera el estándar para uso de este lenguaje por facilidad de uso y su gran cantidad de características.
 
 ---
-Siguiente: [[Instalación de R y RStudio]]
+▶️ [[Instalación de R y RStudio]]
+
+---

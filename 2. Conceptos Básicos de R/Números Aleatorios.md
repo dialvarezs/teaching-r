@@ -41,3 +41,5 @@ Para generar números aleatorios en una distribución normal, se utiliza la func
 
 ---
 Anterior: [[Funciones]]
+
+---

@@ -30,4 +30,6 @@ Estos paneles corresponden a:
 > Al cerrar y abrir nuevamente RStudio, éste recordará los archivos que teníamos abiertos, incluso los que tengan cambios sin guardar, e incluso guardará todo nuestro espacio de trabajo  (con variables incluídas) si es que seleccionamos la opción **Save** ante la pregunta "*Save workspace image to ...?*" .
 
 ---
-Anterior: [[Lenguajes de Programación y Editores]]
+◀️[[Lenguajes de Programación y Editores]]
+
+---
