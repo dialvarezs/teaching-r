@@ -5,4 +5,5 @@ R es un lenguaje interpretado, lo que permite procesar las instrucciones de form
 
 ---
 Siguiente: [[Variables y Tipos]]
+
 ---
