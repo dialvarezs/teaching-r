@@ -78,7 +78,6 @@ print(mult)
 ```
 
 ---
-Anterior: [[Vectores y Listas]]
-Siguiente: [[Funciones]]
+⬅️ [[Vectores y Listas]]  /  ➡️ [[Funciones]]
 
 ---
