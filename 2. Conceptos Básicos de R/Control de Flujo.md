@@ -70,7 +70,7 @@ numeros_primos <- c(1, 3, 5, 7, 11, 13, 17, 19, 23, 29)
 
 # se itera el vector, imprimiendo cada número y multiplicándolos entre sí
 mult = 1
-for(num in numeros_primos) {
+for (num in numeros_primos) {
     print(num)
     mult = mult * num
 }
