@@ -110,3 +110,7 @@ persona$edad   ## 30
 # sigue funcionando acceder por posición
 persona[[3]]   ## 30
 ```
+
+---
+Anterior: [[Variables y Tipos]]
+Siguiente: [[Control de Flujo]]

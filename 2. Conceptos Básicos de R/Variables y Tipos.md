@@ -69,3 +69,7 @@ as.numeric(texto_numerico)
 valores_binarios <- c(1, 0, 1, 1)
 as.logical(valores_binarios)
 ```
+
+---
+Anterior: [[Aspectos Básicos de R]]
+Siguiente: [[Vectores y Listas]]

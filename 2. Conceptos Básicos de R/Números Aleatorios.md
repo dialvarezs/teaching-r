@@ -38,3 +38,6 @@ Para generar números aleatorios en una distribución normal, se utiliza la func
 - cantidad de números a generar
 - `mean`: promedio de la distribución (por defecto 0)
 - `sd`: desviación estándar de la distribución (por defecto 1)
+
+---
+Anterior: [[Funciones]]
