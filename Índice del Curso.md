@@ -9,7 +9,7 @@
 ## 2. Conceptos Básicos de R
 [[Aspectos Básicos de R]]
 [[Variables y Tipos]]
-[[Control de Flujo]]
 [[Vectores y Listas]]
+[[Control de Flujo]]
 [[Funciones]]
 [[Números Aleatorios]]
