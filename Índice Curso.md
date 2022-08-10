@@ -2,16 +2,14 @@
 *Diego Alvarez Saravia / Jacqueline Aldridge Águila*
 (WIP)
 
-## Conceptos Básicos
+## Entorno de Desarrollo
+[[1. Lenguajes de Programación y Editores]]
+[[2. Instalación de R y RStudio]]
 
-### Entorno de Desarrollo
-[[Lenguajes de Programación y Editores]]
-[[Instalación de R y RStudio]]
-
-### Lenguaje R
-[[Aspectos Básicos de R]]
-[[Variables y Tipos]]
-[[Control de Flujo]]
-[[Vectores y Listas]]
-[[Funciones]]
-[[Números Aleatorios]]
+## Conceptos Básicos de R
+[[1. Aspectos Básicos de R]]
+[[2. Variables y Tipos]]
+[[4. Control de Flujo]]
+[[3. Vectores y Listas]]
+[[5. Funciones]]
+[[6. Números Aleatorios]]
