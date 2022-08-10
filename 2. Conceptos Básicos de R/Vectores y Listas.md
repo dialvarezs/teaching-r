@@ -112,10 +112,6 @@ persona[[3]]   ## 30
 ```
 
 ---
-⬅️ [[Variables y Tipos]] / ➡️ [[Control de Flujo]]
-
----
-| ⬅️ [[Variables y Tipos]] | ➡️ [[Control de Flujo]] |
-| ------------------------ | ----------------------- |
+<p style="text-align:center;">⬅️ [[Variables y Tipos]] / ➡️ [[Control de Flujo]]</p>
 
 ---
