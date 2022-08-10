@@ -1,6 +1,5 @@
 La generación de números aleatorios es una tarea común cuando se desea crear valores para probar un fragmento de código. Es posible controlar el tipo de este número aleatorio e incluso el rango y la distribución en la cual se genera.
 
-
 ## Números aleatorios en distribución uniforme
 La forma más sencilla es utilizar la función `runif()`, que recibe 3 parámetros:
 - cantidad de números a generar

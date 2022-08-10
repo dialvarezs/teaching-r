@@ -1,5 +1,4 @@
 ## Definición de funciones
-
 Las funciones son bloques de código que contienen un conjunto de instrucciones que convierte inputs en outputs. El objetivo que se persigue al crear funciones es hacer más modular nuestro código, que puede ayudar a la facilidad de la lectura en el código, además de que si una función está correctamente definida, es posible copiarla a otro proyecto y debería funcionar sin problemas. Una función está compuesta de los siguientes elementos:
 - **Entradas (argumentos o parámetros):** una función puede recibir múltiples argumentos, o también puede no recibir ninguno. Se pueden definir valores por defecto para hacer que el uso del argumento sea opcional.
 - **Cuerpo (instrucciones):** la parte más importante de la función, en que se especifica el proceso que realizará la función.
