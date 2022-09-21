@@ -15,9 +15,9 @@ Los paquetes suelen incluir tutoriales de uso, los que son llamados _vignettes_.
 # revisar las vignettes que tiene el paquete readxl
 vignette(package="readxl")
 
-# Vignettes in package ‘readxl’:
-# cell-and-column-types             Cell and Column Types (source, html)
-# sheet-geometry                    Sheet Geometry (source, html)
+## Vignettes in package ‘readxl’:
+## cell-and-column-types             Cell and Column Types (source, html)
+## sheet-geometry                    Sheet Geometry (source, html)
 
 # abrir una vignette específica de readxl
 vignette("sheet-geometry")
@@ -25,6 +25,11 @@ vignette("sheet-geometry")
 vignette("dplyr")
 ```
 
+Además cabe recordar que se puede buscar la ayuda de cualquier función (incluso de las de paquetes instalados) utilizando el panel "Help" de RStudio, o ejecutando la función precedida de un símbolo de pregunta (`?`).
+```r
+# cargar ayuda de read.csv
+?read.csv
+```
 
 ---
 ⬅️ [[Números Aleatorios]]
