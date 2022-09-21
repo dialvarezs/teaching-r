@@ -39,6 +39,6 @@ Para generar números aleatorios en una distribución normal, se utiliza la func
 - `sd`: desviación estándar de la distribución (por defecto 1)
 
 ---
-⬅️ [[Funciones]]
+⬅️ [[Funciones]] /  ➡️ [[Paquetes]]
 
 ---

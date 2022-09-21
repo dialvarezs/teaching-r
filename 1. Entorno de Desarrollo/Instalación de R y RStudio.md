@@ -23,7 +23,7 @@ Estos paneles corresponden a:
 4. **Archivos, gráficos, paquetes y ayuda:**
 	- Files: permite navegar a través de los directorios dentro de nuestro equipo y realizar operaciones comunes asociadas. Una opción relevante es "Set As Working Directory" (en la sección More), que establece el directorio actual como la base para la sesión de R, lo que permite utilizarlo como directorio de trabajo para cargar y escribir archivos directamente.
 	- Plots: en este panel se muestran los gráficos que se van generando en la sesión, hay opciones para visualizarlos en una ventana más grande, y también exportarlos.
-	- Packages: este panel permite visualizar los paquetes instalados y activarlos en la sesión, buscar e instalar paquetes nuevos, y actualizar y/o eliminar paquetes instalados.
+	- Packages: este panel permite visualizar los [[Paquetes|paquetes]] instalados y activarlos en la sesión, buscar e instalar paquetes nuevos, y actualizar y/o eliminar paquetes instalados.
 	- Help: en este panel puede visualizarse documentación de funciones, que pueden buscarse a través del campo de texto presente en la parte superior del panel.
 
 > [!NOTA]
