@@ -62,7 +62,7 @@ personas[[1]]
 personas$ciudad[1]
 ```
 
-Adicionalmente, los dataframes permiten hacer filtros en columnas y filas de forma simultánea usando un par de corchetes con dos "secciones" separadas por una coma: `[x, y]`, donde la primera sección se utiliza para filtrar filas y la segunda para las columnas. Ambas componentes pueden ser cualquiera de las formas utilizadas para filtrar vector (un valor numérico, un vector de valores numéricos, o una condición), y dado que las columnas tienen nombre, se puede utilizar un vector con sus nombres para seleccionarlas. Se puede omitir cualquiera de los dos filtros dejando vacía la sección.
+Adicionalmente, los dataframes permiten hacer filtros en columnas y filas de forma simultánea mediante la notación  `df[x, y]`, donde `x` se utiliza para filtrar filas e `y` para las columnas. Ambas componentes pueden ser cualquiera de las formas utilizadas para filtrar vector (un valor numérico, un vector de valores numéricos, o una condición), y dado que las columnas tienen nombre, se puede utilizar un vector con sus nombres para seleccionarlas. Se puede omitir cualquiera de los dos filtros dejando vacía la sección.
 ```r
 # primera fila del dataframe
 df[1, ]
