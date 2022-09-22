@@ -92,6 +92,6 @@ df$edad <- NULL
 Es posible realizar más operaciones con dataframe (como ordenar o aplicar filtros más avanzados), pero para este tipo de operaciones haremos uso de las librerías de la colección `tidyverse`, que proveen una sintaxis más sencilla y flexible para manipular los datos.
 
 ---
-➡️ [[Manipulación de DataFrames con tidyverse]]
+➡️ [[La colección tidyverse]]
 
 ---

@@ -16,4 +16,4 @@
 
 ## 3. Manipulación de Información Tabulada
 [[Introducción a DataFrames]]
-[[Manipulación de DataFrames con tidyverse]]
+[[La colección tidyverse]]

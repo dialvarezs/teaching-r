@@ -1,4 +1,8 @@
-La colección [tidyverse](https://www.tidyverse.org/) está compuesta de un conjunto de paquetes diseñados para la manipulación de datos y producción de gráficos, que proveen una alternativa a las funciones que incluye R, pero complementando con más opciones y una sintaxis intuitiva y altamente legible, creando un ecosistema para manipulación y presentación de datos. Concretamente, estos paquetes son:
+La colección [tidyverse](https://www.tidyverse.org/) está compuesta de un conjunto de paquetes diseñados para la manipulación de datos y producción de gráficos, que proveen una alternativa a las funciones que incluye R, pero complementando con más opciones y una sintaxis intuitiva y altamente legible, creando un ecosistema para manipulación y presentación de datos.
+
+![[tidyverse.png]]
+
+Concretamente, estos paquetes son:
 - `dplyr`: manipulación (selección, filtro, alteración, ordenamiento y agrupación) de datos en formato dataframe.
 - `tidyr`: transformación y organización de datos en formato dataframe.
 - `tibble`: provee una implementación alternativa para la implementación de dataframes existente en R.
