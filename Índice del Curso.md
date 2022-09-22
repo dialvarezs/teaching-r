@@ -15,5 +15,5 @@
 [[Números Aleatorios]]
 
 ## 3. Manipulación de Información Tabulada
-[[Introducción a DataFrames]]
+[[Introducción a los DataFrames]]
 [[La colección tidyverse]]
