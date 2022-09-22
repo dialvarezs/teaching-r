@@ -1,4 +1,6 @@
 {
-  "monospaceFontFamily": "Hack",
-  "cssTheme": "Things"
+  "monospaceFontFamily": "Fira Code,Hack",
+  "cssTheme": "Things",
+  "interfaceFontFamily": "",
+  "textFontFamily": "Noto Sans,Droid Sans"
 }

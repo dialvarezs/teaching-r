@@ -13,3 +13,7 @@
 [[Control de Flujo]]
 [[Funciones]]
 [[Números Aleatorios]]
+
+## 3. Manipulación de Información Tabulada
+[[Introducción a DataFrames]]
+[[Manipulación de DataFrames con tidyverse]]

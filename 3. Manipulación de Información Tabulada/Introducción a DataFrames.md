@@ -28,6 +28,8 @@ En R es posible cargar una tabla desde un archivo delimitado mediante la funció
 df <- read.csv("mis_datos.csv")
 # cargar un TSV (delimitado por tabulaciones)
 df <- read.delim("mis_datos.tsv")
+# cargar un archivo tabulado delimitado por ;
+df <- read.table("mis_datos.csv", sep=";")
 ```
 
 R no soporta nativamente la carga de archivos tipo Excel, pero se puede instalar el paquete `readxl` para este propósito.  Este paquete provee la función `read_excel()`, que permite seleccionar la hoja deseada o incluso el rango de filas o columnas a cargar desde el archivo.
@@ -75,7 +77,7 @@ df[df$edad > 21, c("nombre", "ciudad")]
 ```
 
 ### Manipulación de columnas de un dataframe
-Es posible crear nuevas columnas en un dataframe mediante un valor constante o un vector (que puede ser el resultado de operaciones que involucren otras columnas del dataframe). Al momento de asignarla debe indicarse el nombre de esta nueva columna.
+Es posible crear nuevas columnas en un dataframe mediante un valor constante o un vector (que puede ser el resultado de operaciones que involucren otras columnas del dataframe). Al momento de asignarla debe indicarse el nombre de esta nueva columna. Igual es posible eliminar una columna del dataframe asignándole `NULL`.
 ```r
 # nueva columna con un valor fijo
 df$habilitado <- TRUE
@@ -83,4 +85,13 @@ df$habilitado <- TRUE
 df$altura <- c(1.81, 1.77, 1.60)
 # nueva column a partir de las columnas ya existentes
 df$z <- df$x + df$y / 2
+# elminar la columna edad
+df$edad <- NULL
 ```
+
+Es posible realizar más operaciones con dataframe (como ordenar o aplicar filtros más avanzados), pero para este tipo de operaciones haremos uso de las librerías de la colección `tidyverse`, que proveen una sintaxis más sencilla y flexible para manipular los datos.
+
+---
+➡️ [[Manipulación de DataFrames con tidyverse]]
+
+---
