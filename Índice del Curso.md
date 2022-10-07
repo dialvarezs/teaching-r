@@ -17,3 +17,5 @@
 ## 3. Manipulación de Información Tabulada
 [[Introducción a los DataFrames]]
 [[La colección tidyverse]]
+[[Manipulación de dataframes con dplyr]]
+[[Limpieza y transformación de dataframes con tidyr]]

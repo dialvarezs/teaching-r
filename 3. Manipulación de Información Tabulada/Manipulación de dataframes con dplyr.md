@@ -106,7 +106,7 @@ df %>%
 	)
 ```
 
-### Agrupar datos
+### Agrupar datos y generar variables resumen
 Se pueden agrupar las filas dependiendo de sus valores específicos en determinadas columnas y realizar operaciones sobre estos grupos. Por ejemplo, se puede utilizar la función `count()` para contar el número de registros por grupo (que se encarga automáticamente de armar los grupos y obtener el resultado).
 ```r
 # el resultado es una columna con la edad y
@@ -134,3 +134,29 @@ edad  ciudad                n
 20    Santiago              12
 23    Santiago              5
 ```
+
+De forma más general, se puede utilizar la función `group_by()`, la cual genera los grupos de registros en base a las columnas indicadas en los argumentos. Posterior a esto, se pueden calcular valores que resuman las filas utilizando funciones que permitan generar un único valor como resultado (por ejemplo `n()`, `mean()`, `min()`, `max()`). Para esto, existen dos opciones:
+- Utilizar `mutate()`, lo cual añadirá las columnas indicadas al dataframe, pero conservando su estructura original.
+	```r
+	# conserva todas las filas y columnas existentes, añadiendo
+	# dos nuevas columnas con los valores de edad mínimo y máximo
+	# del grupo al que pertenece la fila
+	df %>%
+		group_by(ciudad, edad) %>%
+		mutate(
+			edad_min = min(edad),
+			edad_max = max(edad)
+		)
+	```
+- Utilizar `summarise()`, que conservará solamente las columnas que definen los grupos y una fila por cada grupo, agregando las columnas indicadas a la función.
+	```r
+	# sólo conserva una fila por cada grupo, con las columnas de resumen
+	df %>%
+		group_by(ciudad, edad) %>%
+		summarise(
+			edad_min = min(edad),
+			edad_max = max(edad)
+		)
+	```
+	
+Usar `mutate()` o `summarise()` dependerá de qué es lo que queremos lograr: si añadir información a lo ya existente, o generar un resumen de la información, respectivamente.
