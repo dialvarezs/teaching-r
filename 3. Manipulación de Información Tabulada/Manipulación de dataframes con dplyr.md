@@ -1,4 +1,4 @@
-La librería `dplyr` provee un conjunto de funciones que en algunos casos reemplazan a funciones que existen en R, por lo que en muchos casos no es necesario utilizar las funciones nativas de R.
+El paquete `dplyr` provee un conjunto de funciones que en algunos casos reemplazan a funciones que existen en R, por lo que en muchos casos no es necesario utilizar las funciones nativas de R.
 
 ### Consideraciones generales
 Algo relevante de destacar es que al indicar una columna a una función de  `dplyr`, esta debe indicarse como si se tratara de una variable (aunque no esté definida explícitamente).
