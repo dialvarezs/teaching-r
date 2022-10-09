@@ -72,3 +72,8 @@ Análogamente, existe la función `unite()` que combina múltiples columnas en u
 data %>%
 	unite("fecha", c(dia, mes, año), sep="/")
 ```
+
+---
+⬅️ [[Manipulación de dataframes con dplyr]]
+
+---
