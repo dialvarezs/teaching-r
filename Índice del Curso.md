@@ -3,19 +3,20 @@
 (WIP)
 
 ## 1. Entorno de Desarrollo
-[[Lenguajes de Programación y Editores]]
-[[Instalación de R y RStudio]]
+[[1.1. Lenguajes de Programación y Editores]]
+[[1.2. Instalación de R y RStudio]]
 
 ## 2. Conceptos Básicos de R
-[[Aspectos Básicos de R]]
-[[Variables y Tipos]]
-[[Vectores y Listas]]
-[[Control de Flujo]]
-[[Funciones]]
-[[Números Aleatorios]]
+[[2.1. Aspectos Básicos de R]]
+[[2.2. Variables y Tipos]]
+[[2.3. Vectores y Listas]]
+[[2.4. Control de Flujo]]
+[[2.5. Funciones]]
+[[2.6. Números Aleatorios]]
+[[2.7. Paquetes]]
 
 ## 3. Manipulación de Información Tabulada
-[[Introducción a los DataFrames]]
-[[La colección tidyverse]]
-[[Manipulación de dataframes con dplyr]]
-[[Limpieza y transformación de dataframes con tidyr]]
+[[3.1. Introducción a los DataFrames]]
+[[3.2. La colección tidyverse]]
+[[3.3. Manipulación de dataframes con dplyr]]
+[[3.4. Limpieza y transformación de dataframes con tidyr]]
