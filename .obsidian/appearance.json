@@ -2,5 +2,6 @@
   "monospaceFontFamily": "Fira Code,Hack",
   "cssTheme": "Things",
   "interfaceFontFamily": "",
-  "textFontFamily": "Noto Sans,Droid Sans"
+  "textFontFamily": "Noto Sans,Droid Sans",
+  "accentColor": "#32865f"
 }
