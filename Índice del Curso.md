@@ -19,4 +19,4 @@
 [[3.1. Introducción a los DataFrames]]
 [[3.2. La colección tidyverse]]
 [[3.3. Manipulación de dataframes con dplyr]]
-[[3.4. Limpieza y transformación de dataframes con tidyr]]
+[[3.5. Limpieza y transformación de dataframes con tidyr]]
