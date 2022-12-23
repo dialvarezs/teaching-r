@@ -21,3 +21,6 @@
 [[3.3. Manipulación de dataframes con dplyr]]
 [[3.4. Combinación de dataframes con dplyr]]
 [[3.5. Limpieza y transformación de dataframes con tidyr]]
+
+## 4. Visualización de Resultados
+[[4.1. Aspectos básicos de ggplot2]]
